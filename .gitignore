@@ -3,6 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+token.txt
+Schedule.ipynb
+schedule_ztk.json
+
+
 # C extensions
 *.so
 
