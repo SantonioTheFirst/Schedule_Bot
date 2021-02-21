@@ -3,12 +3,14 @@
 
 
 from Bot import Bot
+import os
 
 
 def main():
     B = Bot()
     B.load_data()
-    B.send_message_with_lessons()
+    B.send_schedule_message()
+    os.system('notify-send "Schedule bot" "Сообщение отправлено!"')
 
 if __name__ == '__main__':
     main()
